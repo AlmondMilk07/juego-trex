@@ -1,0 +1,20 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+#texto_de_juego {
+  text-align: center;
+  color:blue;
+}
+input::placeholder { 
+  color: red; 
+  font-size: 1.2em; 
+  font-style: italic; 
+}
+#jugar {
+  color: rgb(177,236,219);
+  background: rgb(179,207,224);
+}

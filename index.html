@@ -1,0 +1,36 @@
+<!DOCTYPE html><html><head>
+    <script src="./p5.js"></script>
+    <script src="./p5.dom.min.js"></script>
+    <script src="./p5.sound.min.js"></script>
+<script src="./p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+<!-- Firebase --> 
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+<script
+src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+  <script>
+    var firebaseConfig = {
+  apiKey: "AIzaSyBI1emFvukL8udr9ZyDvX92TJ9HoVsP9aw",
+  authDomain: "basededatos-c4274.firebaseapp.com",
+  databaseURL: "https://basededatos-c4274-default-rtdb.firebaseio.com",
+  projectId: "basededatos-c4274",
+  storageBucket: "basededatos-c4274.appspot.com",
+  messagingSenderId: "817057701203",
+  appId: "1:817057701203:web:94e4a4f980c4f6b05095a6"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);</script> 
+
+
+<div>
+  <h1 id="texto_de_juego">Juego T-rex</h1>
+  <input id="nombre_jugador" placeholder="nombre del jugador" type="text"/>
+    <button onclick="play()"> jugar</button> 
+  </div>
+</body>
+</html>
